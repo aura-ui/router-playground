@@ -1,0 +1,38 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 0.75rem;
+}
+
+a[aura-router-link] {
+  color: inherit;
+}
+
+a[aura-router-link].active {
+  font-weight: 700;
+}
+
+main {
+  max-width: 40rem;
+}
+
+code {
+  font-size: 0.9em;
+}

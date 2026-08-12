@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aura Router — Home</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <strong>Aura Router</strong>
+      <nav>
+        <a href="/" aura-router-link>Home</a>
+        <a href="/about/" aura-router-link>About</a>
+      </nav>
+    </header>
+
+    <main id="content">
+      <h1>Home</h1>
+      <p>
+        Full HTML page. Click <strong>About</strong> — Aura updates only
+        <code>#content</code>, without a full reload.
+      </p>
+    </main>
+
+    <aura-outlet></aura-outlet>
+    <aura-router extract="#content">
+      <aura-route path="/" view="/"></aura-route>
+      <aura-route path="/about/" view="/about/"></aura-route>
+    </aura-router>
+  </body>
+</html>
