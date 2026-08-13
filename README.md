@@ -1,6 +1,6 @@
 # Aura Router Playground
 
-Minimal MPA demo for [`@auraui/router`](https://www.npmjs.com/package/@auraui/router): two complete HTML pages, `extract="#content"`, and client navigation after install.
+Minimal HTML-first client navigation playground for [`@auraui/router`](https://www.npmjs.com/package/@auraui/router): two complete HTML pages, `extract="#content"`, and client navigation after install.
 
 - Library: [aura-ui/router](https://github.com/aura-ui/router)
 - Hosted demo: [aura-ui.github.io/router-preview](https://aura-ui.github.io/router-preview/)
