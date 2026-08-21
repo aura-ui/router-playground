@@ -1,7 +1,7 @@
 {
   "name": "@auraui/router-playground",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Minimal MPA playground for @auraui/router — open in StackBlitz or run locally.",
   "scripts": {
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@auraui/router": "0.1.0"
+    "@auraui/router": "0.2.0"
   },
   "devDependencies": {
     "vite": "^6.3.5"
